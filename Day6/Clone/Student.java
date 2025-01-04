@@ -20,7 +20,7 @@ public class Student implements Cloneable{
             Student clone2 = (Student) clone1.clone();
             clone2.display();
         }catch(Exception e){
-            e.printStackTrace();
+            System.out.println("Clone Not support");
         }
     }
 }
